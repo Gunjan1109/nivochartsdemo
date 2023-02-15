@@ -14,7 +14,6 @@ const InvertedBar = ({ data }) => {
           padding={0.3}
           layout="horizontal"
           valueScale={{ type: 'linear' }}
-          indexScale={{ type: 'band', round: true }}
           colorBy="indexValue"
           colors={{ scheme: 'nivo' }}
           borderColor={{    
@@ -26,35 +25,15 @@ const InvertedBar = ({ data }) => {
                   ]
               ]
           }}
-          axisTop={null}
-          axisRight={null}
           axisBottom={{
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
-            tickValues: [0, 5, 10, 15, 20, 25],
             legend: 'percentage',
             legendPosition: 'middle',
-            legendOffset: 32
+            legendOffset: 40
           }}
           axisLeft={{
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
             legend: 'Products',
             legendPosition: 'middle',
             legendOffset: -40
-          }}
-          labelSkipWidth={12}
-          labelSkipHeight={12}
-          labelTextColor={{
-              from: 'color',
-              modifiers: [
-                  [
-                      'darker',
-                      1.6
-                  ]
-              ]
           }}
           legends={[
             {
@@ -67,7 +46,6 @@ const InvertedBar = ({ data }) => {
               itemsSpacing: 1,
               itemWidth: 89,
               itemHeight: 20,
-              itemDirection: 'left-to-right',
               itemOpacity: 0.85,
               symbolSize: 20,
               effects: [

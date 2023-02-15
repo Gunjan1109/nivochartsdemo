@@ -1,5 +1,5 @@
 import React from 'react';
-import { categoriesData, volumeData } from './data';
+import { invertedBarData, barData } from './data';
 import './App.css';
 import InvertedBar from './components/inverted-bar';
 import Bar from './components/bar';
@@ -8,9 +8,9 @@ function App(props) {
   return (
     <>
     <InvertedBar
-      data={categoriesData}
+      data={invertedBarData}
     />
-    {/* <Bar data={volumeData}/> */}
+    {/* <Bar data={barData}/> */}
     </>
   );
 }

@@ -1,4 +1,4 @@
-export const categoriesData = [
+export const invertedBarData = [
     {
         "percentage" : 3.12,
         "product": "baked goods",
@@ -17,7 +17,7 @@ export const categoriesData = [
     },
 ]
 
-export const volumeData = [
+export const barData = [
     {
         "date": "15/01/2023",
         "qty": 6
