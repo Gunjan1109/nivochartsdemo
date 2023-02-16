@@ -41,9 +41,5 @@ export const invertedBarOptions = {
     credits: {
         enabled: false
     },
-    // series: [{
-    //     name: invertedBarData.map(({product}) => product),
-    //     data: invertedBarData.map(({percentage}) => percentage)
-    // }]
     series: invertedBarData
 }

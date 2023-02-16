@@ -75,20 +75,8 @@ export const invertedBarData = [
 
 export const barData = [
     {
-        "date": "15/01/2023",
-        "qty": 6
-    },
-    {
-        "date": "16/01/2023",
-        "qty": 11
-    },
-    {
-        "date": "17/01/2023",
-        "qty": 8
-    },
-    {
-        "date": "18/01/2023",
-        "qty": 23
-    },
+        "data" : [["16/01/2023", 11], ["17/01/2023", 8], ["18/01/2023", 5], ["19/01/2023", 16]],
+        "name": "Quantity Sold"
+    }
     
 ]
