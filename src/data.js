@@ -1,19 +1,75 @@
 export const invertedBarData = [
     {
-        "percentage" : 3.12,
-        "product": "baked goods",
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
     },
     {
-        "percentage" : 5.78,
-        "product": "Candies"
+        "data" : [["Candifses", 5.78]],
+        "name": "Candsdiqes"
     },
     {
-        "percentage" : 12.45,
-        "product": "Confections"
+        "data" : [["baked dcsvgoods", 3.12]],
+        "name": "baked sgoods",
     },
     {
-        "percentage" : 10,
-        "product": "meats"
+        "data" : [["Candiedfss", 5.78]],
+        "name": "Candasies"
+    },{
+        "data" : [["bakeddwfv goods", 3.12]],
+        "name": "bakedds goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candiadfes"
+    },{
+        "data" : [["bakedwqd goods", 3.12]],
+        "name": "bakedwdsf goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candwdsies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
+    },{
+        "data" : [["baked goods", 3.12]],
+        "name": "baked goods",
+    },
+    {
+        "data" : [["Candies", 5.78]],
+        "name": "Candies"
     },
 ]
 
