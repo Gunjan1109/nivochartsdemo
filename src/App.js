@@ -10,7 +10,7 @@ function App(props) {
   return (
     <>
     {/* <div style={{width: "600px", height: "500px"}}> */}
-    <InvertedStackedBar
+    <PieChart
     />
     {/* </div> */}
     {/* <Bar data={barData}/> */}

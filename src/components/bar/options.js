@@ -28,6 +28,7 @@ export const barOptions = {
     },
     legend: {
        enabled: true,
+       symbolRadius: 0
     },
     credits: {
         enabled: false

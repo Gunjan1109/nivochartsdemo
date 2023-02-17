@@ -535,3 +535,15 @@ export const invertedStackeddata = {
     }]
 
 }
+
+export const pieChartData = [{
+  name: 'Contribution To Total Quantity',
+  colorByPoint: true,
+  data: [{
+      name: 'Male',
+      y: 63,
+  },  {
+      name: 'Female',
+      y: 37
+  }]
+}]

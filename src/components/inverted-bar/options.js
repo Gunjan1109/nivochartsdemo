@@ -31,7 +31,8 @@ export const invertedBarOptions = {
     },
     legend: {
         y: 0,
-        maxHeight: 100
+        maxHeight: 100,
+        symbolRadius: 0
     },
     credits: {
         enabled: false

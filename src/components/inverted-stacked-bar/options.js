@@ -17,7 +17,8 @@ export const invertedStackedOPtions = {
         }
     },
     legend: {
-        reversed: true
+        reversed: true,
+        symbolRadius: 0
     },
     plotOptions: {
         series: {
