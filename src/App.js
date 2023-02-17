@@ -7,8 +7,10 @@ import Bar from './components/bar/bar';
 function App(props) {
   return (
     <>
-    <Bar
+    {/* <div style={{width: "600px", height: "500px"}}> */}
+    <InvertedBar
     />
+    {/* </div> */}
     {/* <Bar data={barData}/> */}
     </>
   );

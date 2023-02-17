@@ -30,13 +30,8 @@ export const invertedBarOptions = {
         }
     },
     legend: {
-        x: 0,
         y: 0,
-        width: 800,
-        floating: false,
-        borderWidth: 1,
-        backgroundColor: '#FFFFFF',
-        shadow: false
+        maxHeight: 100
     },
     credits: {
         enabled: false
