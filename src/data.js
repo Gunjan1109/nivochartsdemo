@@ -521,3 +521,15 @@ export const barData = [
     }
     
 ]
+
+export const invertedStackeddata = {
+    xAxisData: ["15-25", "26-35", "36-45", "55+"],
+    yAxisData: [{
+        name: 'Female',
+        data: [100, 62.5, 71, 100]
+    }, {
+        name: 'Male',
+        data: [0, 37.5, 28, 0]
+    }]
+
+}
