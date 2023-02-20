@@ -258,14 +258,6 @@ export const invertedStackeddata = {
 };
 
 export const pieChartData = [
-  {
-    id: "Male",
-    label: "Male",
-    value: 63,
-  },
-  {
-    id: "Female",
-    label: "Female",
-    value: 37,
-  },
-];
+ ['Male', 63],
+ ['Female', 37]
+]
