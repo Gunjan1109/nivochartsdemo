@@ -1,37 +1,37 @@
 import { barData } from "../../data";
 
 export const barOptions = {
-    chart: {
-        type: 'column',
-
+  chart: {
+    type: "column",
+  },
+  xAxis: {
+    type: "category",
+    title: {
+      text: "Date",
     },
-    xAxis: {
-        type: 'category',
-        title: {
-            text: 'Date',
-        },
-        labels: {
-            rotation: -30
-        }
+    labels: {
+      rotation: -30,
     },
-    yAxis: {
-        title: {
-            text: 'Quantity'
-        },
+  },
+  yAxis: {
+    title: {
+      text: "Quantity",
     },
-    plotOptions: {
-        bar: {
-            dataLabels: {
-                enabled: true
-            }
-        }
+  },
+  plotOptions: {
+    column: {
+      color: "orange",
+      dataLabels: {
+        enabled: true,
+      },
     },
-    legend: {
-       enabled: true,
-       symbolRadius: 0
-    },
-    credits: {
-        enabled: false
-    },
-    series: barData
-}
+  },
+  legend: {
+    enabled: true,
+    symbolRadius: 0,
+  },
+  credits: {
+    enabled: false,
+  },
+  series: barData,
+};
