@@ -25,7 +25,8 @@ export const invertedBarOptions = {
     plotOptions: {
         bar: {
             dataLabels: {
-                enabled: true
+                enabled: true,
+                format: '{y}%'
             }
         }
     },
