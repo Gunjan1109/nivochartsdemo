@@ -1,10 +1,9 @@
-import { invertedBarData } from "../../data";
 
-export const invertedBarOptions = {
+export const invertedGroupedOptions = {
     chart: {
         type: 'bar',
-        marginLeft: 200,
-        width: 600
+        marginLeft: 350,
+
     },
     xAxis: {
         type: 'category',
@@ -17,34 +16,30 @@ export const invertedBarOptions = {
         title: {
             text: 'Percentage'
         },
-        labels: {
-            format: '{text}%'
-        }
-    },
-    tooltip: {
-        valueSuffix: ' %'
     },
     plotOptions: {
         bar: {
             dataLabels: {
                 enabled: true,
-                format: '{y}%'
             }
         },
         series: {
-            pointWidth: 6
+            pointWidth: 10
         }
     },
     legend: {
-        maxHeight: 70,
+        maxHeight: 100,
         symbolRadius: 0,
-        width: 600,
-        itemWidth: 130,
-        x: 220
-
     },
     credits: {
         enabled: false
     },
-    series: invertedBarData
+    series: [{
+        name: "2GO Organic",
+        data: [["Organic dided", 275],["Organic pineapple", 146], ["Raw cane", 200]]
+    },
+{
+    name: "4 purpose Energy",
+    data: [["Energy drink", 50],["Zero sugar", 16]]
+}]
 }
