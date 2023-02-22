@@ -6,13 +6,14 @@ import Bar from './components/bar/bar';
 import InvertedStackedBar from './components/inverted-stacked-bar/invertedStackedBar';
 import PieChart from './components/pie-chart/piechart';
 import InvertedGroupedBar from './components/inverted-grouped/inverted-grouped';
+import LineChart from './components/line-chart/line-chart';
 
 function App(props) {
   return (
     <>
     {/* <div style={{width: "600px", height: "500px"}}> */}
-    <InvertedBar
-    />
+    <LineChart
+    />  
     {/* </div> */}
     {/* <Bar data={barData}/> */}
     </>

@@ -14,6 +14,9 @@ export const invertedStackedOPtions = {
         min: 0,
         title: {
             text: 'Percentage'
+        },
+        labels: {
+            format: '{text}%'
         }
     },
     legend: {

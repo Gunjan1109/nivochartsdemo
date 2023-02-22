@@ -261,3 +261,21 @@ export const pieChartData = [
  ['Male', 63],
  ['Female', 37]
 ]
+
+export const invertedGroupedData = [
+  {
+    name: "2GO Organic",
+    data: [
+      ["Organic dided", 275],
+      ["Organic pineapple", 146],
+      ["Raw cane", 200],
+    ],
+  },
+  {
+    name: "4 purpose Energy",
+    data: [
+      ["Energy drink", 50],
+      ["Zero sugar", 16],
+    ],
+  },
+]
