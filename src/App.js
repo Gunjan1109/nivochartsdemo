@@ -12,7 +12,7 @@ function App(props) {
   return (
     <>
     {/* <div style={{width: "600px", height: "500px"}}> */}
-    <LineChart
+    <Bar
     />  
     {/* </div> */}
     {/* <Bar data={barData}/> */}

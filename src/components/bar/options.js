@@ -29,6 +29,9 @@ export const barOptions = {
   legend: {
     enabled: true,
     symbolRadius: 0,
+    align: "right",
+    layout: 'proximate',
+    y: 50
   },
   credits: {
     enabled: false,
