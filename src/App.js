@@ -1,21 +1,27 @@
 import React from 'react';
-import { invertedBarData, barData } from './data';
 import './App.css';
-import InvertedBar from './components/inverted-bar/InvertedBar';
-import Bar from './components/bar/bar';
-import InvertedStackedBar from './components/inverted-stacked-bar/invertedStackedBar';
-import PieChart from './components/pie-chart/piechart';
-import InvertedGroupedBar from './components/inverted-grouped/inverted-grouped';
-import LineChart from './components/line-chart/line-chart';
+import HighchartsReact from "highcharts-react-official";
+import Highcharts from 'highcharts';
+//import HC_more from "highcharts/highcharts-more";
+import { invertedBarOptions } from './components/inverted-bar/options';
+import { barOptions } from './components/bar/options';
+//HC_more(Highcharts);
+
+Highcharts.setOptions({
+  chart: {
+     style: {
+      fontFamily : "arial"
+     }
+  }
+});
 
 function App(props) {
   return (
     <>
-    {/* <div style={{width: "600px", height: "500px"}}> */}
-    <Bar
-    />  
-    {/* </div> */}
-    {/* <Bar data={barData}/> */}
+  <HighchartsReact 
+  highcharts={Highcharts}
+  options={barOptions}
+  />
     </>
   );
 }

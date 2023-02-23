@@ -3,9 +3,6 @@ import { barData } from "../../data";
 export const barOptions = {
   chart: {
     type: "column",
-    style: {
-      fontFamily: 'serif'
-    }
   },
   xAxis: {
     type: "category",
