@@ -28,8 +28,11 @@ export const invertedGroupedOptions = {
     },
   },
   legend: {
-    maxHeight: 100,
     symbolRadius: 0,
+    align: 'right',
+    layout: 'vertical',
+    verticalAlign: "bottom",
+    y: -20
   },
   credits: {
     enabled: false,

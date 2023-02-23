@@ -4,7 +4,6 @@ export const invertedBarOptions = {
     chart: {
         type: 'bar',
         marginLeft: 200,
-        width: 600
     },
     xAxis: {
         type: 'category',
@@ -36,12 +35,10 @@ export const invertedBarOptions = {
         }
     },
     legend: {
-        maxHeight: 70,
         symbolRadius: 0,
-        width: 600,
-        itemWidth: 130,
-        x: 220
-
+       align: 'right',
+       layout: 'vertical',
+       verticalAlign: "bottom"
     },
     credits: {
         enabled: false

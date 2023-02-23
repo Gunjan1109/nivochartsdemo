@@ -21,7 +21,11 @@ export const invertedStackedOPtions = {
     },
     legend: {
         reversed: true,
-        symbolRadius: 0
+        symbolRadius: 0,
+        align: 'right',
+       layout: 'vertical',
+       verticalAlign: "bottom",
+       y: -10
     },
     plotOptions: {
         series: {

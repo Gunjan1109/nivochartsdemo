@@ -22,7 +22,7 @@ export const pieChartOptions = {
         },
     },
     legend: {
-        symbolRadius: 0 
+        symbolRadius: 0
     },
     series: [
         {
