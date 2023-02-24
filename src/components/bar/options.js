@@ -29,10 +29,6 @@ export const barOptions = {
   legend: {
     enabled: true,
     symbolRadius: 0,
-    align: 'right',
-       layout: 'vertical',
-       verticalAlign: "bottom",
-       y: -60
   },
   credits: {
     enabled: false,

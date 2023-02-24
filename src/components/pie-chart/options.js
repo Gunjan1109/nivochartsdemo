@@ -18,7 +18,8 @@ export const pieChartOptions = {
             allowPointSelect: true,
             cursor: 'pointer',
             showInLegend: true,
-            data: pieChartData
+            data: pieChartData,
+            innerSize: '50%'
         },
     },
     legend: {
@@ -29,13 +30,11 @@ export const pieChartOptions = {
             type: 'pie',
             dataLabels: {
                 color: 'white',
-                distance: -60,
-               useHTML: true,
+                distance: -35,
                 format: '<div align="center">{y}% </div>',
                 style: {
-                    fontSize: "40px"
+                    fontSize: "20px"
                 },
-                align: "left"
             }
         },
         {
