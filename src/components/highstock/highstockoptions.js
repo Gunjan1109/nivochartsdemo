@@ -2,7 +2,7 @@ import { highstockData } from "../../data";
 
 export const highstockOptions = {
   chart: {
-    type: "line",
+    type: "column",
   },
   series: [
     {
@@ -13,6 +13,8 @@ export const highstockOptions = {
   ],
   rangeSelector: {
     enabled: false,
+    selected: 100,
+    allButtonsEnabled: true
   },
   xAxis: {
     title: {
@@ -53,9 +55,7 @@ export const highstockOptions = {
     },
   },
 
-  // tooltip: {
-  //     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.cumulativeSum})<br/>',
-  //     changeDecimals: 2,
-  //     valueDecimals: 2
-  // },
+  tooltip: {
+      split: false
+  },
 };

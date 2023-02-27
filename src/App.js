@@ -22,16 +22,16 @@ function App(props) {
   return (
     <>
     {/* <div style={{width: "900px", height: "300px"}}> */}
-  {/* <HighchartsReact 
+  <HighchartsReact 
   highcharts={HighchartsStock}
   constructorType="stockChart"
   options={highstockOptions}
-  /> */}
+  />
 
-  <HighchartsReact 
+  {/* <HighchartsReact 
   highcharts={Highcharts}
   options={splineChartOptions}
-  />
+  /> */}
 
 
   {/* </div> */}
