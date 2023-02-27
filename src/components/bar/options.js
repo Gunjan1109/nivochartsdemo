@@ -4,6 +4,9 @@ export const barOptions = {
   chart: {
     type: "column",
   },
+  rangeSelector: {
+    enabled: false
+},
   xAxis: {
     type: "category",
     title: {
