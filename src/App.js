@@ -9,6 +9,7 @@ import { invertedStackedOPtions } from './components/inverted-stacked-bar/option
 import { invertedGroupedOptions } from './components/inverted-grouped/options';
 import { pieChartOptions } from './components/pie-chart/options';
 import { highstockOptions } from './components/highstock/highstockoptions';
+import { splineChartOptions } from './components/spline/options';
 Highcharts.setOptions({
   chart: {
      style: {
@@ -21,10 +22,15 @@ function App(props) {
   return (
     <>
     {/* <div style={{width: "900px", height: "300px"}}> */}
-  <HighchartsReact 
+  {/* <HighchartsReact 
   highcharts={HighchartsStock}
   constructorType="stockChart"
   options={highstockOptions}
+  /> */}
+
+  <HighchartsReact 
+  highcharts={Highcharts}
+  options={splineChartOptions}
   />
 
 

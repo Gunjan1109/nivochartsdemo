@@ -8,14 +8,11 @@ export const highstockOptions = {
     {
       data: highstockData,
       name: "2 GO Organic",
+      color: "red"
     },
   ],
   rangeSelector: {
     enabled: false,
-  },
-  tooltip: {
-    pointFormat:
-      '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
   },
   xAxis: {
     title: {
@@ -38,9 +35,8 @@ export const highstockOptions = {
   },
   legend: {
     enabled: true,
-    symbolRadius: 10,
+    symbolRadius: 0,
   },
-  colors: ["green"],
   plotOptions: {
     line: {
       dataLabels: {
