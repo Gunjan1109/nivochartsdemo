@@ -19,7 +19,8 @@ export const pieChartOptions = {
             cursor: 'pointer',
             showInLegend: true,
             data: pieChartData,
-            innerSize: '50%'
+            innerSize: '50%',
+            colors: ['green', 'orange']
         },
     },
     legend: {

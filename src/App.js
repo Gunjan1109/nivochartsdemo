@@ -21,7 +21,7 @@ function App(props) {
     {/* <div style={{width: "900px", height: "300px"}}> */}
   <HighchartsReact 
   highcharts={Highcharts}
-  options={invertedStackedOPtions}
+  options={pieChartOptions}
   />
   {/* </div> */}
     </>
