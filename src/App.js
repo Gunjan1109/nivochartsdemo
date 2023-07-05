@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import HighchartsReact from "highcharts-react-official";
 import HighchartsStock from 'highcharts/highstock';
@@ -10,6 +10,15 @@ import { invertedGroupedOptions } from './components/inverted-grouped/options';
 import { pieChartOptions } from './components/pie-chart/options';
 import { highstockOptions } from './components/highstock/highstockoptions';
 import { splineChartOptions } from './components/spline/options';
+import { mapOptions } from "./components/maps/options";
+
+require('highcharts/indicators/indicators')(Highcharts)
+require('highcharts/indicators/pivot-points')(Highcharts)
+require('highcharts/indicators/macd')(Highcharts)
+require('highcharts/modules/exporting')(Highcharts)
+require('highcharts/modules/map')(Highcharts)
+
+
 Highcharts.setOptions({
   chart: {
      style: {
@@ -22,16 +31,18 @@ function App(props) {
   return (
     <>
     {/* <div style={{width: "900px", height: "300px"}}> */}
-  <HighchartsReact 
+  {/* <HighchartsReact 
   highcharts={HighchartsStock}
   constructorType="stockChart"
   options={highstockOptions}
-  />
-
-  {/* <HighchartsReact 
-  highcharts={Highcharts}
-  options={splineChartOptions}
   /> */}
+<div>
+  <HighchartsReact 
+  highcharts={Highcharts}
+  options={mapOptions}
+  constructorType={"mapChart"}
+  />
+  </div>
 
 
   {/* </div> */}
