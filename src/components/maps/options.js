@@ -30,6 +30,14 @@ export const mapOptions = {
     colorAxis: {
         min: 1,
         type: 'logarithmic',
+        // minColor: '#fec89a',
+        //     maxColor: '#e0115f',
+        //     stops: [
+        //         [0, '#fec89a'],
+        //         [0.67, '#4444FF'],
+        //         [1, '#e0115f']
+        //     ]
+        /* alternate colours */
         minColor: '#EEEEFF',
         maxColor: '#000022',
         stops: [
