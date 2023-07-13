@@ -11,13 +11,11 @@ import { pieChartOptions } from './components/pie-chart/options';
 import { highstockOptions } from './components/highstock/highstockoptions';
 import { splineChartOptions } from './components/spline/options';
 import { mapOptions } from "./components/maps/options";
+import { wordCloudOptions } from './components/wordCloud/options';
 
-require('highcharts/indicators/indicators')(Highcharts)
-require('highcharts/indicators/pivot-points')(Highcharts)
-require('highcharts/indicators/macd')(Highcharts)
-require('highcharts/modules/exporting')(Highcharts)
-require('highcharts/modules/map')(Highcharts)
+import wordCloud from "highcharts/modules/wordcloud";
 
+wordCloud(Highcharts)
 
 Highcharts.setOptions({
   chart: {
@@ -30,22 +28,12 @@ Highcharts.setOptions({
 function App(props) {
   return (
     <>
-    {/* <div style={{width: "900px", height: "300px"}}> */}
-  {/* <HighchartsReact 
-  highcharts={HighchartsStock}
-  constructorType="stockChart"
-  options={highstockOptions}
-  /> */}
 <div>
   <HighchartsReact 
   highcharts={Highcharts}
-  options={mapOptions}
-  constructorType={"mapChart"}
+  options={wordCloudOptions}
   />
   </div>
-
-
-  {/* </div> */}
     </>
   );
 }
