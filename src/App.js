@@ -14,8 +14,10 @@ import { mapOptions } from "./components/maps/options";
 import { wordCloudOptions } from './components/wordCloud/options';
 
 import wordCloud from "highcharts/modules/wordcloud";
+import { lineWithColumnOptions } from './components/line-with-column/options';
+import { lineChartOptions } from './components/line-chart/options';
 
-wordCloud(Highcharts)
+// wordCloud(Highcharts)
 
 Highcharts.setOptions({
   chart: {
@@ -28,10 +30,10 @@ Highcharts.setOptions({
 function App(props) {
   return (
     <>
-<div>
+<div className='container'>
   <HighchartsReact 
   highcharts={Highcharts}
-  options={wordCloudOptions}
+  options={lineWithColumnOptions}
   />
   </div>
     </>
